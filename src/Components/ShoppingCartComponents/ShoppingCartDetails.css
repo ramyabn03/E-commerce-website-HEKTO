@@ -1,0 +1,45 @@
+.each-subpage-header-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  height: 22rem;
+  background-color: #f6f5ff;
+}
+.each-page-title {
+  font-size: 3.6rem;
+  line-height: 4, 2rem;
+  color: #101750;
+}
+.sc-page-nav {
+  display: flex;
+  gap: 1rem;
+}
+.sc-page-nav a:link,
+.sc-page-nav a:visited {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  text-align: center;
+  color: #000000;
+}
+.sc-page-nav a:active,
+.sc-page-nav a:hover,
+.sc-page-nav a.active {
+  color: #fb2e86;
+}
+@media (max-width: 35em) {
+  .each-subpage-header-box {
+    height: 18rem;
+    padding: 0 8%;
+  }
+}
+@media (max-width: 28em) {
+  .each-subpage-header-box {
+    height: 18rem;
+    padding-left: 3.5rem;
+  }
+}

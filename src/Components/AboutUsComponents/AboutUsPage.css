@@ -1,0 +1,160 @@
+.aboutus-history {
+  margin: 6rem 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4rem;
+}
+.auh-img {
+  position: relative;
+  height: 30.1rem;
+  width: 39rem;
+  background-color: #2b3cab;
+  border-radius: 6px;
+}
+.auh-img img {
+  position: absolute;
+  width: 40rem;
+  height: 29rem;
+  left: 1rem;
+}
+.auh-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.auh-details h3 {
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #151875;
+}
+.auh-details p {
+  font-size: 1.3rem;
+  line-height: 2.6rem;
+  font-weight: 600;
+  color: #8a8fb9;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.au-of-box {
+  margin-bottom: 10rem;
+}
+.aboutus-feature-active {
+  border-bottom: 3px solid #ff9100;
+}
+.clients-opinion {
+  height: 50rem;
+  background-color: #fbfbff;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 15rem;
+}
+.clients-opinion h3 {
+  font-size: 3rem;
+  line-height: 2.6rem;
+  color: #000000;
+  margin-bottom: 4rem;
+}
+.clients-imgs {
+  display: flex;
+  gap: 1.5rem;
+  height: 6rem;
+  align-items: flex-end;
+}
+.clients-imgs img {
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 2px;
+}
+
+.clients-imgs .c2 {
+  height: 5.9rem;
+  margin-bottom: 0.6rem;
+}
+.clients-info p:first-child {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+  font-family: "Lato", sans-serif;
+}
+.clients-info p:last-child {
+  font-size: 1rem;
+  line-height: 2.4rem;
+  color: #8a8fb9;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+.clients-msg {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  color: #8a8fb9;
+  text-align: center;
+  width: 82%;
+}
+@media (max-width: 75em) {
+  .container.aboutus-history {
+    padding: 0 10%;
+  }
+}
+
+@media (max-width: 58em) {
+  .aboutus-history {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    gap: 0;
+  }
+  .auh-details {
+    align-items: center;
+    text-align: center;
+    padding: 0 4rem;
+  }
+  .auh-img {
+    height: 34rem;
+    width: 80%;
+    margin-left: 7%;
+  }
+  .auh-details p {
+    font-size: 1.6rem;
+  }
+  .auh-img img {
+    position: absolute;
+    width: 100%;
+    height: 33rem;
+    left: 1rem;
+  }
+  .clients-opinion.container {
+    padding: 0 10%;
+  }
+}
+@media (max-width: 28em) {
+  .aboutus-history {
+    grid-template-rows: 0.5fr 1fr;
+    gap: 3rem;
+  }
+  .auh-details {
+    padding: 0;
+  }
+  .auh-details p {
+    font-size: 1.3rem;
+  }
+  .auh-img {
+    height: 22rem;
+    width: 96%;
+    margin-left: 0;
+  }
+  .auh-img img {
+    position: absolute;
+    width: 100%;
+    height: 21rem;
+    left: 1rem;
+  }
+  .clients-msg {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 18em) {
+  .auh-details h3 {
+    font-size: 2.7rem;
+  }
+}

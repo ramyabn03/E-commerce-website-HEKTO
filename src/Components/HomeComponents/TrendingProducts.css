@@ -1,0 +1,159 @@
+.trending-products {
+  padding: 4rem 0;
+  flex-direction: column;
+}
+.trnd-prod-box {
+  display: flex;
+  gap: 2rem;
+}
+.tp-card {
+  height: 31rem;
+  width: 22rem;
+  background: linear-gradient(0deg, #ffffff, #ffffff), #ffffff;
+  flex-direction: column;
+  gap: 1rem;
+}
+.tp-card-img {
+  height: 22rem;
+  width: 20rem;
+  background-color: #f5f6f8;
+}
+.tp-card-img img {
+  height: 18rem;
+  width: 18rem;
+}
+.tp-card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.tp-card-details p {
+  font-size: 1.6rem;
+  color: #151875;
+  line-height: 2.6rem;
+  font-weight: 700;
+  font-family: "lato", sans-serif;
+}
+.tp-card-price span:first-child {
+  font-size: 1.4rem;
+  color: #151875;
+  line-height: 1.6rem;
+}
+.tp-card-price span:last-child {
+  font-size: 1.2rem;
+  color: rgba(21, 24, 117, 0.3);
+  text-decoration-line: line-through;
+  line-height: 1.4rem;
+}
+.tp-off-prod {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2.5rem;
+}
+.off-prod-card {
+  padding: 2rem;
+  height: 21rem;
+  width: 31rem;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+.off-prod-card.one {
+  background-color: #fff6fb;
+}
+.off-prod-card.two {
+  background-color: #eeeffb;
+}
+.off-prod-card p {
+  font-size: 2.4rem;
+  line-height: 3rem;
+  color: #151875;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.off-prod-card a:link,
+.off-prod-card a:visited {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #fb2e86;
+  font-family: "lato", sans-serif;
+}
+.off-prod-card img {
+  height: 15rem;
+  width: 17rem;
+  margin-top: -2rem;
+  margin-left: 11rem;
+}
+
+.esc-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.exe-seat-chair-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.esc-img {
+  background-color: #f5f6f8;
+  width: 8rem;
+  height: 6.3rem;
+}
+.esc-img img {
+  height: 5rem;
+  width: 5rem;
+}
+.esc-text p:first-child {
+  font-size: 1.6rem;
+  line-height: 1.87rem;
+  color: #151875;
+  font-weight: 600;
+}
+.esc-text p:last-child {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-decoration-line: line-through;
+  color: #151875;
+}
+
+@media (max-width: 58em) and (min-width: 35em) {
+  .trnd-prod-box,
+  .tp-off-prod {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+  }
+  .trending-products {
+    margin-bottom: 38rem;
+  }
+  .esc-container {
+    position: absolute;
+    top: 25rem;
+    left: 20rem;
+  }
+  .esc-img {
+    background-color: #f5f6f8;
+    width: 12rem;
+    height: 9rem;
+  }
+  .esc-img img {
+    height: 9rem;
+    width: 9rem;
+  }
+  .esc-text p:first-child {
+    font-size: 2rem;
+  }
+  .esc-text p:last-child {
+    font-size: 1.6rem;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .trnd-prod-box,
+  .tp-off-prod {
+    display: grid;
+    grid-template-rows: auto auto auto;
+  }
+}
