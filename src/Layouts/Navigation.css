@@ -1,0 +1,172 @@
+.heading-bar {
+  background-color: #7e33e0;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-details {
+  gap: 1.2vw;
+}
+.left-details {
+  gap: 3vw;
+}
+.left-icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.right-icon {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.top-text-p {
+  color: #f1f1f1;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+.cart-icon-header {
+  font-size: 1.8rem;
+  color: #f1f1f1;
+}
+.icons {
+  font-size: 1.6rem;
+}
+.nav-bar {
+  background-color: #ffffff;
+  color: #0d0e43;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-bar {
+  gap: 4.5vw;
+}
+.main-bar h1 {
+  font-size: 3.8rem;
+  line-height: 4rem;
+}
+.nav-bar-options {
+  gap: 1.3vw;
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.nav-bar-options a:link,
+.nav-bar-options a:visited {
+  text-decoration: none;
+}
+.nav-bar-options a.active {
+  color: #fb2e86;
+}
+.search-bar input {
+  height: 3.5rem;
+  width: 23.5rem;
+  border: 2px solid #e7e6ef;
+  border-right: none;
+}
+.search-icon {
+  background-color: #fb2e86;
+  color: #f1f1f1;
+  height: 3.5rem;
+  width: 4.3rem;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-menu {
+  display: none;
+}
+@media (max-width: 58em) {
+  .nav-bar {
+    height: 13vh;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .main-bar {
+    justify-content: space-between;
+  }
+  .search-bar input {
+    position: absolute;
+    right: 14.5vw;
+    top: 12vh;
+    height: 4rem;
+    width: 30rem;
+  }
+  .search-icon {
+    position: absolute;
+    right: 10vw;
+    top: 12vh;
+    height: 4rem;
+  }
+}
+@media (max-width: 40em) {
+  .right-details {
+    gap: 2vw;
+  }
+  .left-details {
+    gap: 3vw;
+  }
+  .top-text-p span {
+    display: none;
+  }
+}
+@media (max-width: 35em) {
+  .heading-bar,
+  .nav-bar {
+    padding: 0 8%;
+  }
+  .nav-bar {
+    height: 16.5vh;
+    transition: all 0.5s ease-in;
+  }
+  .nav-bar-options {
+    flex-direction: column;
+    display: none;
+  }
+  .search-bar input {
+    right: 17vw;
+    top: 14vh;
+    width: 75%;
+  }
+  .search-icon {
+    right: 9.5vw;
+    top: 14vh;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+  .mobile-menu button {
+    border: none;
+    height: 3.8rem;
+    width: 4.5rem;
+    font-size: 3.4rem;
+    background-color: transparent;
+  }
+  .menu-close {
+    display: none;
+  }
+  .nav-bar-options.nav-open {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 5vh;
+    background-color: #f6f5ff;
+    width: 100vw;
+    height: 34rem;
+    z-index: 1;
+    gap: 2rem;
+  }
+  .nav-open.menu-close {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 8vh;
+    right: 7vw;
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "new-arrivals": [
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "new-arrival",
+      "image": "https://images.pexels.com/photos/2762247/pexels-photo-2762247.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "new-arrival",
+      "image": "https://images.pexels.com/photos/2258083/pexels-photo-2258083.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "featured",
+      "image": "https://images.pexels.com/photos/1321290/pexels-photo-1321290.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "new-arrival",
+      "image": "https://images.pexels.com/photos/2180883/pexels-photo-2180883.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "new-arrival",
+      "image": "https://images.pexels.com/photos/106839/pexels-photo-106839.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ],
+  "best-seller": [
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "best-seller",
+      "image": "https://images.pexels.com/photos/1957477/pexels-photo-1957477.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "best-seller",
+      "image": "https://images.pexels.com/photos/105004/pexels-photo-105004.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "best-seller",
+      "image": "https://images.pexels.com/photos/7881483/pexels-photo-7881483.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ],
+  "featured": [
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "featured",
+      "image": "https://images.pexels.com/photos/2220328/pexels-photo-2220328.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "featured",
+      "image": "https://images.pexels.com/photos/4273433/pexels-photo-4273433.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ],
+  "social-offer": [
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "social-offer",
+      "image": "https://images.pexels.com/photos/2495555/pexels-photo-2495555.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "name": "Comfort Handy Craft",
+      "code": "Y523201",
+      "actualprice": "$65.00",
+      "price": "$42.00",
+      "category": "social-offer",
+      "image": "https://images.pexels.com/photos/96940/pexels-photo-96940.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
+}

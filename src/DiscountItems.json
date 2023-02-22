@@ -1,0 +1,41 @@
+{
+  "woodChairs": [
+    {
+      "name": "Eams Sofa Compact",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget feugiat habitasse nec, bibendum condimentum.",
+      "image": "https://www.pngkey.com/png/full/703-7033938_patio-chair-transparent-background.png",
+      "features": {
+        "point1": "Material expose like metals",
+        "point2": "Simple neutral colours.",
+        "point3": "Clear lines and geomatric figures",
+        "point4": "Material expose like metals"
+      }
+    }
+  ],
+  "plasticChairs": [
+    {
+      "name": "Eams Sofa Compact",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget feugiat habitasse nec, bibendum condimentum.",
+      "image": "https://www.pngplay.com/wp-content/uploads/2/Modern-Chair-Transparent-Images.png",
+      "features": {
+        "point1": "Material expose like metals",
+        "point2": "Simple neutral colours.",
+        "point3": "Clear lines and geomatric figures",
+        "point4": "Material expose like metals"
+      }
+    }
+  ],
+  "sofaCollections": [
+    {
+      "name": "Eams Sofa Compact",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget feugiat habitasse nec, bibendum condimentum.",
+      "image": "https://www.pngkey.com/png/full/339-3398761_free-png-armchair-png-images-transparent-chair-png.png",
+      "features": {
+        "point1": "Material expose like metals",
+        "point2": "Simple neutral colours.",
+        "point3": "Clear lines and geomatric figures",
+        "point4": "Material expose like metals"
+      }
+    }
+  ]
+}
