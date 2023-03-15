@@ -55,11 +55,12 @@
   font-weight: 400;
   line-height: 2rem;
 }
-.nav-bar-options a:link,
-.nav-bar-options a:visited {
+.nav-bar-options .added-link,
+.nav-bar-options .added-link {
   text-decoration: none;
+  color: #0d0e43;
 }
-.nav-bar-options a.active {
+.nav-bar-options .added-link.active {
   color: #fb2e86;
 }
 .search-bar input {
