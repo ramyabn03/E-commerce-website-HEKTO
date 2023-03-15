@@ -1,5 +1,6 @@
 # hekto
-
+Deployed on 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/69ff3de7-795f-4196-84d3-37c6086c3a2d/deploy-status)](https://app.netlify.com/sites/hekto-furniture-shopping/deploys)
 
 
 
